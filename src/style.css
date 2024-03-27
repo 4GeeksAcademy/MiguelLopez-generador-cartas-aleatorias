@@ -1,1 +1,65 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url("/src/pexels-aperture-pro-3678384.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#carta {
+  width: 300px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 5% auto;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+}
+#simboloArriba {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  top: -35px;
+  color: red;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+}
+#numero {
+  color: white;
+  font-size: 120px;
+  width: 120px;
+  top: -100px;
+  margin: auto;
+  text-align: center;
+}
+#simboloAbajo {
+  float: right;
+  position: relative;
+  right: 10px;
+  top: 80px;
+  color: red;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+  transform: rotate(-180deg);
+}
+#boton-nueva {
+  margin: auto;
+  width: 500px;
+  text-align: center;
+}
+
+.boton {
+  width: 300px;
+  font-size: 22px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif; /* Cambiamos el font family a Montserrat */
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
